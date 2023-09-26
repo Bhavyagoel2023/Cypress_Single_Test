@@ -10,10 +10,7 @@ module.exports = defineConfig({
       //   ),
       // }
     },
-    headless:false,
-    defaultCommandTimeout:20000,
-    screenshotOnRunFailure: true,
-    videosFolder: '/videos',
-    video:true
+    headless:true,
+    defaultCommandTimeout:20000
   },
 });
